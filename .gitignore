@@ -1,0 +1,64 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# production build output (some setups)
+dist/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# local env files
+.env
+.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# vercel
+.vercel/
+
+# cache
+.cache/
+.eslintcache
+.next/cache/
+
+# coverage
+coverage/
+
+# typescript
+*.tsbuildinfo
+
+# misc
+.DS_Store
+Thumbs.db
+
+# editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# local database / sqlite (if used)
+*.sqlite
+*.sqlite3
+
+# turborepo (if in monorepo)
+.turbo/
+
+# pnpm
+.pnpm-store/
+
+# optional: lockfiles (UNCOMMENT if you do NOT want to commit them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+.vercel
